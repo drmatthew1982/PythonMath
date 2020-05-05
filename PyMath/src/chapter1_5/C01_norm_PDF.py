@@ -18,4 +18,5 @@ ax.plot(x, norm_0.pdf(x), color="red", lw=5, alpha=0.6, label='loc=0, scale=1')
 ax.plot(x, norm_1.pdf(x), color="blue", lw=5, alpha=0.6, label='loc=1, scale=2')
 ax.legend(loc='best',frameon=False)
 
+
 plt.show()
